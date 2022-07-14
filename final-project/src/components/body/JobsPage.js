@@ -27,7 +27,7 @@ const JobsPage = () => {
           <div className="container specialBorder ">
            
            <div className="row">
-                  <tr>
+                  {/* <tr> */}
               {jobs
                 ? jobs.map(job=> {
                     return(
@@ -43,7 +43,7 @@ const JobsPage = () => {
                 : 
                 "No jobs"}
 
-                </tr>
+                {/* </tr> */}
            </div> 
           </div>
           <div className="container specialBorder ">
